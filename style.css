@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ededed;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background: crimson;
+    padding: 40px 0;
+}
+
+header i {
+    color: white;
+    font-size: 90px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: white;
+}
+
+#password_container, #reload {
+    display: none;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#password {
+    font-weight: bold;
+    color: crimson;
+}
+
+#password_container.mostra {
+    display: block;
+}
+
+#reload.mostra {
+    display: inline-block;
+}
+
+#reload {
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px;
+    margin-top: 15px;
+}
